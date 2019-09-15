@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		614B5B38232E0C9A00048E66 /* Throw_a_Milkshake.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = 614B5B37232E0C9A00048E66 /* Throw_a_Milkshake.entitlements */; };
+		614B5B3A232E0C9A00048E66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614B5B39232E0C9A00048E66 /* AppDelegate.swift */; };
+		614B5B3D232E0C9A00048E66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 614B5B3B232E0C9A00048E66 /* Main.storyboard */; };
+		614B5B3F232E0C9A00048E66 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614B5B3E232E0C9A00048E66 /* ViewController.swift */; };
+		614B5B41232E0C9D00048E66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 614B5B40232E0C9D00048E66 /* Assets.xcassets */; };
+		614B5B48232E0C9D00048E66 /* Throw a Milkshake Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 614B5B47232E0C9D00048E66 /* Throw a Milkshake Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		614B5B4D232E0C9D00048E66 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 614B5B4C232E0C9D00048E66 /* Cocoa.framework */; };
+		614B5B50232E0C9D00048E66 /* SafariExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614B5B4F232E0C9D00048E66 /* SafariExtensionHandler.swift */; };
+		614B5B52232E0C9D00048E66 /* SafariExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614B5B51232E0C9D00048E66 /* SafariExtensionViewController.swift */; };
+		614B5B55232E0C9D00048E66 /* SafariExtensionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 614B5B53232E0C9D00048E66 /* SafariExtensionViewController.xib */; };
+		614B5B58232E0C9D00048E66 /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = 614B5B57232E0C9D00048E66 /* script.js */; };
+		614B5B5A232E0C9D00048E66 /* ToolbarItemIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 614B5B59232E0C9D00048E66 /* ToolbarItemIcon.pdf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		614B5B49232E0C9D00048E66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 614B5B2C232E0C9A00048E66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 614B5B46232E0C9D00048E66;
+			remoteInfo = "Throw a Milkshake Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		614B5B61232E0C9D00048E66 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				614B5B48232E0C9D00048E66 /* Throw a Milkshake Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		614B5B34232E0C9A00048E66 /* Throw a Milkshake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Throw a Milkshake.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		614B5B37232E0C9A00048E66 /* Throw_a_Milkshake.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Throw_a_Milkshake.entitlements; sourceTree = "<group>"; };
+		614B5B39232E0C9A00048E66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		614B5B3C232E0C9A00048E66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		614B5B3E232E0C9A00048E66 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		614B5B40232E0C9D00048E66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		614B5B42232E0C9D00048E66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		614B5B47232E0C9D00048E66 /* Throw a Milkshake Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Throw a Milkshake Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		614B5B4C232E0C9D00048E66 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		614B5B4F232E0C9D00048E66 /* SafariExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionHandler.swift; sourceTree = "<group>"; };
+		614B5B51232E0C9D00048E66 /* SafariExtensionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionViewController.swift; sourceTree = "<group>"; };
+		614B5B54232E0C9D00048E66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/SafariExtensionViewController.xib; sourceTree = "<group>"; };
+		614B5B56232E0C9D00048E66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		614B5B57232E0C9D00048E66 /* script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
+		614B5B59232E0C9D00048E66 /* ToolbarItemIcon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ToolbarItemIcon.pdf; sourceTree = "<group>"; };
+		614B5B5B232E0C9D00048E66 /* Throw_a_Milkshake_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Throw_a_Milkshake_Extension.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		614B5B31232E0C9A00048E66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		614B5B44232E0C9D00048E66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				614B5B4D232E0C9D00048E66 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		614B5B2B232E0C9A00048E66 = {
+			isa = PBXGroup;
+			children = (
+				614B5B36232E0C9A00048E66 /* Throw a Milkshake */,
+				614B5B4E232E0C9D00048E66 /* Throw a Milkshake Extension */,
+				614B5B4B232E0C9D00048E66 /* Frameworks */,
+				614B5B35232E0C9A00048E66 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		614B5B35232E0C9A00048E66 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				614B5B34232E0C9A00048E66 /* Throw a Milkshake.app */,
+				614B5B47232E0C9D00048E66 /* Throw a Milkshake Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		614B5B36232E0C9A00048E66 /* Throw a Milkshake */ = {
+			isa = PBXGroup;
+			children = (
+				614B5B37232E0C9A00048E66 /* Throw_a_Milkshake.entitlements */,
+				614B5B39232E0C9A00048E66 /* AppDelegate.swift */,
+				614B5B3B232E0C9A00048E66 /* Main.storyboard */,
+				614B5B3E232E0C9A00048E66 /* ViewController.swift */,
+				614B5B40232E0C9D00048E66 /* Assets.xcassets */,
+				614B5B42232E0C9D00048E66 /* Info.plist */,
+			);
+			path = "Throw a Milkshake";
+			sourceTree = "<group>";
+		};
+		614B5B4B232E0C9D00048E66 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				614B5B4C232E0C9D00048E66 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		614B5B4E232E0C9D00048E66 /* Throw a Milkshake Extension */ = {
+			isa = PBXGroup;
+			children = (
+				614B5B4F232E0C9D00048E66 /* SafariExtensionHandler.swift */,
+				614B5B51232E0C9D00048E66 /* SafariExtensionViewController.swift */,
+				614B5B53232E0C9D00048E66 /* SafariExtensionViewController.xib */,
+				614B5B56232E0C9D00048E66 /* Info.plist */,
+				614B5B57232E0C9D00048E66 /* script.js */,
+				614B5B59232E0C9D00048E66 /* ToolbarItemIcon.pdf */,
+				614B5B5B232E0C9D00048E66 /* Throw_a_Milkshake_Extension.entitlements */,
+			);
+			path = "Throw a Milkshake Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		614B5B33232E0C9A00048E66 /* Throw a Milkshake */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 614B5B62232E0C9D00048E66 /* Build configuration list for PBXNativeTarget "Throw a Milkshake" */;
+			buildPhases = (
+				614B5B30232E0C9A00048E66 /* Sources */,
+				614B5B31232E0C9A00048E66 /* Frameworks */,
+				614B5B32232E0C9A00048E66 /* Resources */,
+				614B5B61232E0C9D00048E66 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				614B5B4A232E0C9D00048E66 /* PBXTargetDependency */,
+			);
+			name = "Throw a Milkshake";
+			productName = "Throw a Milkshake";
+			productReference = 614B5B34232E0C9A00048E66 /* Throw a Milkshake.app */;
+			productType = "com.apple.product-type.application";
+		};
+		614B5B46232E0C9D00048E66 /* Throw a Milkshake Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 614B5B5E232E0C9D00048E66 /* Build configuration list for PBXNativeTarget "Throw a Milkshake Extension" */;
+			buildPhases = (
+				614B5B43232E0C9D00048E66 /* Sources */,
+				614B5B44232E0C9D00048E66 /* Frameworks */,
+				614B5B45232E0C9D00048E66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Throw a Milkshake Extension";
+			productName = "Throw a Milkshake Extension";
+			productReference = 614B5B47232E0C9D00048E66 /* Throw a Milkshake Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		614B5B2C232E0C9A00048E66 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = melkat.dev;
+				TargetAttributes = {
+					614B5B33232E0C9A00048E66 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					614B5B46232E0C9D00048E66 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = 614B5B2F232E0C9A00048E66 /* Build configuration list for PBXProject "Throw a Milkshake" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 614B5B2B232E0C9A00048E66;
+			productRefGroup = 614B5B35232E0C9A00048E66 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				614B5B33232E0C9A00048E66 /* Throw a Milkshake */,
+				614B5B46232E0C9D00048E66 /* Throw a Milkshake Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		614B5B32232E0C9A00048E66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				614B5B38232E0C9A00048E66 /* Throw_a_Milkshake.entitlements in Resources */,
+				614B5B41232E0C9D00048E66 /* Assets.xcassets in Resources */,
+				614B5B3D232E0C9A00048E66 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		614B5B45232E0C9D00048E66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				614B5B5A232E0C9D00048E66 /* ToolbarItemIcon.pdf in Resources */,
+				614B5B55232E0C9D00048E66 /* SafariExtensionViewController.xib in Resources */,
+				614B5B58232E0C9D00048E66 /* script.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		614B5B30232E0C9A00048E66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				614B5B3F232E0C9A00048E66 /* ViewController.swift in Sources */,
+				614B5B3A232E0C9A00048E66 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		614B5B43232E0C9D00048E66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				614B5B52232E0C9D00048E66 /* SafariExtensionViewController.swift in Sources */,
+				614B5B50232E0C9D00048E66 /* SafariExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		614B5B4A232E0C9D00048E66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 614B5B46232E0C9D00048E66 /* Throw a Milkshake Extension */;
+			targetProxy = 614B5B49232E0C9D00048E66 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		614B5B3B232E0C9A00048E66 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				614B5B3C232E0C9A00048E66 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		614B5B53232E0C9D00048E66 /* SafariExtensionViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				614B5B54232E0C9D00048E66 /* Base */,
+			);
+			name = SafariExtensionViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		614B5B5C232E0C9D00048E66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		614B5B5D232E0C9D00048E66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		614B5B5F232E0C9D00048E66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Throw a Milkshake Extension/Throw_a_Milkshake_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 54UV554W6E;
+				INFOPLIST_FILE = "Throw a Milkshake Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "melkat.dev.Throw-a-Milkshake-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		614B5B60232E0C9D00048E66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Throw a Milkshake Extension/Throw_a_Milkshake_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 54UV554W6E;
+				INFOPLIST_FILE = "Throw a Milkshake Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "melkat.dev.Throw-a-Milkshake-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		614B5B63232E0C9D00048E66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Throw a Milkshake/Throw_a_Milkshake.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 54UV554W6E;
+				INFOPLIST_FILE = "Throw a Milkshake/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "melkat.dev.Throw-a-Milkshake";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		614B5B64232E0C9D00048E66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Throw a Milkshake/Throw_a_Milkshake.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 54UV554W6E;
+				INFOPLIST_FILE = "Throw a Milkshake/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "melkat.dev.Throw-a-Milkshake";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		614B5B2F232E0C9A00048E66 /* Build configuration list for PBXProject "Throw a Milkshake" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				614B5B5C232E0C9D00048E66 /* Debug */,
+				614B5B5D232E0C9D00048E66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		614B5B5E232E0C9D00048E66 /* Build configuration list for PBXNativeTarget "Throw a Milkshake Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				614B5B5F232E0C9D00048E66 /* Debug */,
+				614B5B60232E0C9D00048E66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		614B5B62232E0C9D00048E66 /* Build configuration list for PBXNativeTarget "Throw a Milkshake" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				614B5B63232E0C9D00048E66 /* Debug */,
+				614B5B64232E0C9D00048E66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 614B5B2C232E0C9A00048E66 /* Project object */;
+}
