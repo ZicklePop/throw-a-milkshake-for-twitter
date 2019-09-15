@@ -50,7 +50,7 @@
 		<dict>
 			<key>Allowed Domains</key>
 			<array>
-				<string>*.webkit.org</string>
+				<string>*.twitter.com</string>
 			</array>
 			<key>Level</key>
 			<string>Some</string>
@@ -59,6 +59,6 @@
 	<key>NSHumanReadableCopyright</key>
 	<string>Copyright © 2019 melkat.dev. All rights reserved.</string>
 	<key>NSHumanReadableDescription</key>
-	<string>This is a Safari Extension. You should tell us what your extension does here.</string>
+	<string>Easily report abuse on Twitter</string>
 </dict>
 </plist>
