@@ -12,10 +12,12 @@ import SafariServices.SFSafariApplication
 class ViewController: NSViewController {
 
     @IBOutlet var appNameLabel: NSTextField!
+    @IBOutlet var appDescLabel: NSTextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         self.appNameLabel.stringValue = "Throw a Milkshake";
+        self.appDescLabel.stringValue = "Select a tweet (with j or k) and press\n⇧ Shift + G for hate speech targeting a group,\n⇧ Shift + S for hate speech targetting an individual.";
     }
     
     @IBAction func openSafariExtensionPreferences(_ sender: AnyObject?) {
