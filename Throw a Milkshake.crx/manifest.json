@@ -1,0 +1,16 @@
+{
+    "description": "Easily report hate speech on Twitter",
+    "manifest_version": 2,
+    "name": "Throw a Milkshake",
+    "version": "1.0",
+    "icons": {
+        "1024": "tam.png"
+    },
+    "content_scripts": [{
+        "js": ["script.js"],
+        "matches": [
+            "https://*.twitter.com/*"
+        ],
+        "run_at": "document_start"
+    }]
+}
