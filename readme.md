@@ -1,10 +1,11 @@
 # Throw a Milkshake for Twitter
 
-**Support for Chrome, Firefox, and Edge coming soon!**
+for Safari, Chrome, Edge, and Firefox
 
 Easy report a tweet by selecting it and pressing:
 - `⇧ Shift + G` if it is hate speech targeting at a group
 - `⇧ Shift + S` if it is hate speech targeting an individual
+
 
 ## Thank you!
 
